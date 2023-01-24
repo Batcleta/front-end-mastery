@@ -1,6 +1,6 @@
-import { FC } from 'react'
 import './main.css'
+import { FC } from 'react'
 
 export const Brand: FC = () => {
-  return <div></div>
+  return <div>Brand</div>
 }

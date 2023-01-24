@@ -1,6 +1,6 @@
-import { FC } from 'react'
 import './main.css'
+import { FC } from 'react'
 
 export const Feature: FC = () => {
-  return <div></div>
+  return <div>Feature</div>
 }
