@@ -1,3 +1,4 @@
+import './App.css'
 import React from 'react'
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
 import { CTA, Brand, NavBar } from './components'
