@@ -9,3 +9,4 @@
 #to learn more
 
 - BEM -> block element modifier
+- when do margin do no collapse
