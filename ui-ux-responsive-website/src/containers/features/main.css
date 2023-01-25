@@ -17,8 +17,6 @@
 }
 
 .gpt3__features-heading h1 {
-  max-width: 426px;
-
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 34px;
@@ -47,4 +45,26 @@
 .gpt3__features-container .gpt3__feature-container__feature-title > h1 {
   font-size: 20px;
   line-height: 32px;
+}
+
+@media screen and (max-width: 990px) {
+  .gpt3__features {
+    flex-direction: column;
+  }
+
+  .gpt3__features-heading {
+    margin: 0 0 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__features-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+
+  .gpt3__features-container .gpt3__feature-container__feature-title > h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
