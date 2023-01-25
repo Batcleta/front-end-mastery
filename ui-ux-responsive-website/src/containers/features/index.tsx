@@ -1,11 +1,7 @@
 import './main.css'
 import { FC } from 'react'
 import { Feature } from '../../components'
-
-interface IFeaturesData {
-  title: string
-  text: string
-}
+import { IFeaturesData } from '../../interfaces/features'
 
 const feturesData: IFeaturesData[] = [
   {
@@ -38,10 +34,11 @@ export const Features: FC = () => {
         <p>Request Early Access to Get Started</p>
       </div>
       <div className='gpt3__features-container'>
-        {feturesData &&
-          feturesData.map(({ title, text }, index) => (
-            <Feature key={index} title={title} text={text} />
-          ))}
+        {feturesData
+          ? feturesData.map(({ title, text }, index) => (
+              <Feature key={index} title={title} text={text} />
+            ))
+          : null}
       </div>
     </div>
   )

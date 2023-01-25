@@ -2,17 +2,17 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 .gpt3__features-heading {
   flex: 1;
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 
-  text-align: left;
+  text-align: left; */
   margin-right: 5rem;
 }
 
