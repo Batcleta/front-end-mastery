@@ -4,3 +4,8 @@
 
 - angrytools.com/gradient
 - animista.net
+
+
+#to learn more
+
+- BEM -> block element modifier
