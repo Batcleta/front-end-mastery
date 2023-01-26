@@ -5,7 +5,7 @@ import ai from '../../assets/ai.png'
 
 export const Header: FC = () => {
   return (
-    <div className='gpt3__header section__padding' id='home'>
+    <header className='gpt3__header section__padding' id='home'>
       <div className='gpt3__header-content'>
         <h1 className='gradient__text'>Lets Build Somethig Amazing with GPT-3 OpenAI</h1>
         <p>
@@ -26,6 +26,6 @@ export const Header: FC = () => {
       <div className='gpt3__header-image'>
         <img src={ai} alt='' />
       </div>
-    </div>
+    </header>
   )
 }

@@ -20,7 +20,7 @@ const feturesData: IFeaturesData[] = [
 
 export const WhatGPT3: FC = () => {
   return (
-    <div className='gpt3__whatgpt3 section__margin' id='wgpt3'>
+    <section className='gpt3__whatgpt3 section__margin' id='wgpt3'>
       <div className='gpt3__whatgpt3-feature'>
         <Feature
           title='What is GPT-3'
@@ -39,6 +39,6 @@ export const WhatGPT3: FC = () => {
             ))
           : null}
       </div>
-    </div>
+    </section>
   )
 }
