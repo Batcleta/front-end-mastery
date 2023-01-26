@@ -35,7 +35,7 @@
 }
 
 .gpt3__features-container {
-  flex: 1.5;
+  flex: 1.2;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -45,6 +45,12 @@
 .gpt3__features-container .gpt3__feature-container__feature-title > h1 {
   font-size: 20px;
   line-height: 32px;
+}
+
+@media screen and (max-width: 1370px) {
+  .gpt3__features-container {
+    flex: 1.5;
+  }
 }
 
 @media screen and (max-width: 990px) {
