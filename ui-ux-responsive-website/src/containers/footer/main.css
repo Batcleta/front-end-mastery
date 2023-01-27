@@ -16,7 +16,7 @@
   margin: 5rem 0;
 }
 
-.gpt3__footer-heading h1 {
+.gpt3__footer-heading h2 {
   max-width: 821px;
   margin: 0 auto;
 
@@ -117,14 +117,14 @@
 }
 
 @media screen and (max-width: 850px) {
-  .gpt3__footer-heading h1 {
+  .gpt3__footer-heading h2 {
     font-size: 44px;
     line-height: 50px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__footer-heading h1 {
+  .gpt3__footer-heading h2 {
     font-size: 39px;
     line-height: 42px;
   }
@@ -140,7 +140,7 @@
 }
 
 @media screen and (max-width: 450px) {
-  .gpt3__footer-heading h1 {
+  .gpt3__footer-heading h2 {
     font-size: 27px;
     line-height: 38px;
   }

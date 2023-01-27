@@ -4,9 +4,9 @@ import gpt3Logo from '../../assets/logo.svg'
 
 export const Footer: FC = () => {
   return (
-    <div className='gpt3__footer section__padding'>
+    <footer className='gpt3__footer section__padding'>
       <div className='gpt3__footer-heading'>
-        <h1 className='gradient__text'>Do you want to step in to the future before others</h1>
+        <h2 className='gradient__text'>Do you want to step in to the future before others</h2>
       </div>
       <div className='gpt3__footer-btn'>
         <p>Request Early Access</p>
@@ -39,6 +39,6 @@ export const Footer: FC = () => {
       <div className='gpt3__footer-copyright'>
         <p>All rights reserved</p>
       </div>
-    </div>
+    </footer>
   )
 }
